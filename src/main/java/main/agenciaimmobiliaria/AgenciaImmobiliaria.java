@@ -12,6 +12,11 @@ package main.agenciaimmobiliaria;
 public class AgenciaImmobiliaria {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        AgenciaImmobiliaria agencia = new AgenciaImmobiliaria();
+        agencia.iniciar();
+    }
+
+    public void iniciar(){
+        MainView mainView = new MainView();
     }
 }
